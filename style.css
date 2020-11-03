@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+body{
+background-color:sky-blue;
+margin: 20px 60px;
+}
+.banner{
+    height: 100vh;
+    width:100%;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.banner video{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+
+}
+ .banner .container{
+    position: relative;
+   height: 100%;
+    width:100%;
+    margin:10px;
+    z-index:1;
+    
+}
+
+/*------------Navigation Part---------*/
+.nav{
+display:flex;
+flex-direction:row;
+justify-content:flex-end;
+}
+.nav h1{
+margin: 10px;
+margin-right:auto;
+font-size: 25px;
+}
+ 
+.nav a{
+ text-decoration:none;
+margin:15px 10px;
+
+}
+.nav img{
+    height:20px;
+    margin-top:10px;
+}
+/*------------Heading Part---------*/
+.heading{
+   margin: 70px 0 20px 25px;
+   font-size: 27px;;
+}
+.heading h1 a{
+    color:rgb(143, 133, 196);
+}
+
+/*------------Main Part---------*/
+.main{
+    display:flex;
+    background-color:white;
+   border:2px solid black;
+   height:310px;
+   width:500px;
+   margin:10px;
+   flex-direction:column;
+}
+.radio{
+    display:flex;
+    flex-direction: row;
+    width: 400px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    font-size: 20px;
+    margin:5px;
+    padding:10px;
+}
+.journey{
+    display:flex;
+}
+.journey label{
+    font-size: 20px;
+    margin:2px 10px;
+    color:black;
+}
+.journey input{
+    height: 20px;
+}
+.journey img{
+    margin-top:7px;
+}
+.calender{
+    display:flex;
+    margin:2px 10px;
+   
+}
+ .calender label{
+    font-size: 20px;
+    margin:5px;
+}
+.calender input{
+height: 20px;
+margin:5px;
+}
+.passenger{
+    font-size:20px;
+    margin:10px;
+}
+.passenger h3{
+    font-size:25px;
+}
+.passenger p{
+    padding: 10px;
+}
+.passenger img{
+    margin-left:10px;
+    height:15px;
+    background-color:black;
+}
+.passenger button{
+    height: 30px;
+    font-size:20px;
+    width: 200px;
+   background-color:rgba(95, 128, 190, 0.472);
+   color:white;
+    margin-left: 20px;
+}
+.list a{
+    text-decoration:none;
+    margin:20px 10px;
+    color:black;
+
+}
